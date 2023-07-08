@@ -1,36 +1,42 @@
 /* Common Share Style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* nav related style */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav> ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
@@ -40,15 +46,79 @@ nav a{
     padding: 15px 35px;
 }
 
-/* header related style */
-.header{
-    background-color: #FFF8F3;
+.section-title {
+    Copy color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    ]
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.section-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profile-pic{
+
+.profile-pic {
     width: 500px;
+    padding-bottom: 0px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-heading {
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-dev {
+    color: rgba(24, 24, 24, 0.15);
+    font-size: 100px;
+    font-weight: 300px;
+    line-height: normal;
+    /* letter-spacing: px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* main section styles */
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
 }
